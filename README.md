@@ -22,6 +22,10 @@ $ pod try NumPad
 
 ## Installation
 
+### Swift Package Manager
+To install with Swift Package Manager, simply paste this URL in it:
+https://github.com/beautimode/NumPad.git
+
 ### CocoaPods
 To install with [CocoaPods](http://cocoapods.org/), simply add this in your `Podfile`:
 ```ruby
