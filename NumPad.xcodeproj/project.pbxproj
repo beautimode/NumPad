@@ -7,20 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1368AEB02797DE6E00A80DFF /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 1368AEAF2797DE6E00A80DFF /* Sources */; };
 		714434241FDE249800F2AF13 /* NumPad.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 714434211FDE249800F2AF13 /* NumPad.podspec */; };
 		714434251FDE249800F2AF13 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 714434221FDE249800F2AF13 /* CHANGELOG.md */; };
 		714434261FDE249800F2AF13 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 714434231FDE249800F2AF13 /* README.md */; };
-		71FCD2D720030D5300E9187A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FCD2D620030D5300E9187A /* Extensions.swift */; };
-		71FCD2D92003124700E9187A /* DefaultNumPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FCD2D82003124700E9187A /* DefaultNumPad.swift */; };
-		71FCD2DB2003127500E9187A /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FCD2DA2003127500E9187A /* Cell.swift */; };
-		71FCD2DD2003160B00E9187A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FCD2DC2003160B00E9187A /* Item.swift */; };
 		71FCD2DF200316CD00E9187A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FCD2DE200316CD00E9187A /* Extension.swift */; };
 		8B6F4F6C1CF8C82F00ECA134 /* NumPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7950051CF83A0E00392FCA /* NumPad.framework */; };
 		8B6F4F6D1CF8C82F00ECA134 /* NumPad.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7950051CF83A0E00392FCA /* NumPad.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8B6F4F721CF8C8EA00ECA134 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F4F711CF8C8EA00ECA134 /* UITests.swift */; };
 		8B6F4F741CF8C92300ECA134 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B6F4F731CF8C92300ECA134 /* Tests.swift */; };
-		8B7950091CF83A0E00392FCA /* NumPad.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B7950081CF83A0E00392FCA /* NumPad.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B946FC61CF83A83009D0C67 /* NumPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B946FC51CF83A83009D0C67 /* NumPad.swift */; };
 		8BB480D61CF83B1C00CC27E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB480D51CF83B1C00CC27E2 /* AppDelegate.swift */; };
 		8BB480D81CF83B1C00CC27E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB480D71CF83B1C00CC27E2 /* ViewController.swift */; };
 		8BB480DB1CF83B1C00CC27E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB480D91CF83B1C00CC27E2 /* Main.storyboard */; };
@@ -60,20 +55,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1368AEAF2797DE6E00A80DFF /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
 		714434211FDE249800F2AF13 /* NumPad.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NumPad.podspec; sourceTree = "<group>"; };
 		714434221FDE249800F2AF13 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
 		714434231FDE249800F2AF13 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		71FCD2D620030D5300E9187A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		71FCD2D82003124700E9187A /* DefaultNumPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultNumPad.swift; sourceTree = "<group>"; };
-		71FCD2DA2003127500E9187A /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
-		71FCD2DC2003160B00E9187A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		71FCD2DE200316CD00E9187A /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		8B6F4F711CF8C8EA00ECA134 /* UITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		8B6F4F731CF8C92300ECA134 /* Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		8B7950051CF83A0E00392FCA /* NumPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NumPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B7950081CF83A0E00392FCA /* NumPad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumPad.h; sourceTree = "<group>"; };
-		8B79500A1CF83A0E00392FCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B946FC51CF83A83009D0C67 /* NumPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumPad.swift; sourceTree = "<group>"; };
 		8BB480D31CF83B1C00CC27E2 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB480D51CF83B1C00CC27E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BB480D71CF83B1C00CC27E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -114,10 +103,10 @@
 		8B794FFB1CF83A0E00392FCA = {
 			isa = PBXGroup;
 			children = (
+				1368AEAF2797DE6E00A80DFF /* Sources */,
 				714434231FDE249800F2AF13 /* README.md */,
 				714434221FDE249800F2AF13 /* CHANGELOG.md */,
 				714434211FDE249800F2AF13 /* NumPad.podspec */,
-				8B7950071CF83A0E00392FCA /* NumPad */,
 				8BB480D41CF83B1C00CC27E2 /* Example */,
 				8BEB96E41CF83E670028C62A /* Tests */,
 				8B7950061CF83A0E00392FCA /* Products */,
@@ -132,21 +121,6 @@
 				8BEB96E31CF83E670028C62A /* Tests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		8B7950071CF83A0E00392FCA /* NumPad */ = {
-			isa = PBXGroup;
-			children = (
-				8B79500A1CF83A0E00392FCA /* Info.plist */,
-				8B7950081CF83A0E00392FCA /* NumPad.h */,
-				8B946FC51CF83A83009D0C67 /* NumPad.swift */,
-				71FCD2D82003124700E9187A /* DefaultNumPad.swift */,
-				71FCD2DA2003127500E9187A /* Cell.swift */,
-				71FCD2DC2003160B00E9187A /* Item.swift */,
-				71FCD2D620030D5300E9187A /* Extensions.swift */,
-			);
-			name = NumPad;
-			path = Sources;
 			sourceTree = "<group>";
 		};
 		8BB480D41CF83B1C00CC27E2 /* Example */ = {
@@ -180,7 +154,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B7950091CF83A0E00392FCA /* NumPad.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +269,7 @@
 				714434261FDE249800F2AF13 /* README.md in Resources */,
 				714434241FDE249800F2AF13 /* NumPad.podspec in Resources */,
 				714434251FDE249800F2AF13 /* CHANGELOG.md in Resources */,
+				1368AEB02797DE6E00A80DFF /* Sources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,11 +297,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71FCD2DD2003160B00E9187A /* Item.swift in Sources */,
-				8B946FC61CF83A83009D0C67 /* NumPad.swift in Sources */,
-				71FCD2DB2003127500E9187A /* Cell.swift in Sources */,
-				71FCD2D720030D5300E9187A /* Extensions.swift in Sources */,
-				71FCD2D92003124700E9187A /* DefaultNumPad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,7 +508,6 @@
 		8BB480E21CF83B1C00CC27E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -553,7 +521,6 @@
 		8BB480E31CF83B1C00CC27E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
