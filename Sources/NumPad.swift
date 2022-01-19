@@ -115,7 +115,9 @@ extension NumPad: UICollectionViewDelegateFlowLayout {
             let indexPath = self.indexPath(for: position)
             var size = collectionView.bounds.size
             size.width /= CGFloat(numberOfColumns(section: indexPath.section))
+            size.width = floor(size.width)
             size.height /= CGFloat(numberOfRows())
+            size.height = floor(size.height)
             return size
         }()
     }
