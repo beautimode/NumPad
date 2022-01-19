@@ -7,13 +7,13 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = "NumPad"
-    s.version          = "3.0.1"
+    s.name             = "NumPadBeautimode"
+    s.version          = "3.0.2"
     s.license          = 'MIT'
-    s.homepage         = "https://github.com/efremidze/NumPad"
-    s.author           = { "Lasha Efremidze" => "efremidzel@hotmail.com" }
+    s.homepage         = "https://github.com/beautimode/NumPad"
+    s.author           = { "Meng-Yuan Huang" => "roger@beautimode.com" }
     s.summary          = "Number Pad"
-    s.source           = { :git => 'https://github.com/efremidze/NumPad.git', :tag => s.version }
-    s.source_files     = "Sources/*.swift"
+    s.source           = { :git => 'https://github.com/beautimode/NumPad.git', :tag => s.version }
+    s.source_files     = "Sources/NumPad/*.swift"
     s.ios.deployment_target = '9.0'
 end
