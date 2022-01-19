@@ -2,11 +2,11 @@
 //  NumPad.h
 //  NumPad
 //
-//  Created by Lasha Efremidze on 5/27/16.
-//  Copyright © 2016 Lasha Efremidze. All rights reserved.
+//  Created by 黃孟遠 on 2022/1/19.
+//  Copyright © 2022 Lasha Efremidze. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for NumPad.
 FOUNDATION_EXPORT double NumPadVersionNumber;

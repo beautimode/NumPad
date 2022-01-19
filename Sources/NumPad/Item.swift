@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 public struct Item {
     public var backgroundColor: UIColor? = .white
